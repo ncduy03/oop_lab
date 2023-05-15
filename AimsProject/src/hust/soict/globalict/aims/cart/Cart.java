@@ -19,6 +19,16 @@ public class Cart {
         }
     }
 
+    // public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+    // if (qtyOrdered + dvdList.length >= MAX_NUMBERS_ORDERED){
+    // System.out.println("The cart is already full, please remove some items before
+    // adding this one.");
+    // return;
+    // }
+    // for (DigitalVideoDisc dvd : dvdList){
+    // addDigitalVideoDisc(dvd);
+    // }
+    // }
     public void addDigitalVideoDisc(DigitalVideoDisc... dvdList) {
         if (qtyOrdered + dvdList.length > MAX_NUMBERS_ORDERED) {
             System.out.println("The cart is already full, please remove some items before adding this one.");
@@ -83,7 +93,7 @@ public class Cart {
         System.out.println("Not found DVD.");
         return false;
     }
-    @Override
+    
     public String toString() {
         String cartString = "";
         String cartHeader = "***********************CART***********************\n";

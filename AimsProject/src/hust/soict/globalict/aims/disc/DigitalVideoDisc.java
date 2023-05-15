@@ -34,8 +34,6 @@ public class DigitalVideoDisc {
 
     }
 
-
-
     public String getTitle() {
         return title;
     }
@@ -74,7 +72,7 @@ public class DigitalVideoDisc {
     public void setCost(float cost) {
         this.cost = cost;
     }
-
+    @Override
     public String toString(){
         return String.format("DVD#%d - %s - %s - %d:  %.2f$\n",
                 id,

@@ -1,6 +1,5 @@
 package hust.soict.globalict.test.store;
 
-
 import hust.soict.globalict.aims.disc.DigitalVideoDisc;
 import hust.soict.globalict.aims.store.Store;
 

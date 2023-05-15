@@ -12,8 +12,8 @@ public class Aims {
        
         order.addDigitalVideoDisc(dvd1, dvd2, dvd3);
 
+        order.searchDVD(1);
         order.searchDVD(3);
-        order.searchDVD(5);
         order.searchDVD("Star Wars");
         order.searchDVD("Aladin");
 

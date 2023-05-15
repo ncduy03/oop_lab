@@ -13,8 +13,9 @@ public class TestPassingParameter {
         changeTitle(jungleDVD, cinderellaDVD.getTitle());
         System.out.println("Jungle DVD title: " + jungleDVD.getTitle());
     }
-  
+   
     public static void swap(DigitalVideoDisc disc1, DigitalVideoDisc disc2){
+        //This function only apply to DigitalVideoDisc
         String tmpTitle = disc1.getTitle();
         disc1.setTitle(disc2.getTitle());
         disc2.setTitle(tmpTitle);
